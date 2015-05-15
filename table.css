@@ -1,0 +1,28 @@
+/* Results Table */
+table#results{
+    border-collapse:collapse;
+    border-spacing:0;
+    width:100%;
+    background-color: transparent;
+}
+table#results tbody td, table#results thead th{
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size:14px;
+    line-height:16px;
+    padding:8px 5px 8px 5px;
+    overflow:hidden;
+    word-break:normal;
+    text-align:left;
+    color:#666666;
+}
+table#results thead th{padding-bottom:10px;text-align:left;font-weight:700;}
+table#results thead th{font-size:12px;}
+
+table#results tbody tr{border-top:1px solid #B3B3B3;}
+table#results tbody tr.even{background-color:#f1f1f1;}
+table#results tbody tr.odd{background-color:#fff;}
+table#results tbody tr:hover{background-color:#b3b3b3;}
+table#results tbody tr:hover td{color:#ffffff;}
+table#results tbody td.overall{padding-left: 4px;}
+
